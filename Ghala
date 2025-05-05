@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Ghala</title>
+    <style>
+        body {
+            background-color: #D3D3D3; /* خلفية رمادي فاتح */
+            font-family: 'Arial', sans-serif;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-align: center;
+            color: #D0B8D8; /* فايب العنوان، لون رمادي فاتح مع لمعة */
+            margin-top: 20px;
+        }
+
+        .message-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .message-box {
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+            width: 60%;
+            min-height: 150px;
+            margin-top: 50px;
+            text-align: center;
+            color: black;
+            font-size: 1.2em;
+            overflow: hidden;
+        }
+
+        .typing-effect {
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 4px solid black;
+            width: 0;
+            animation: typing 5s steps(50) forwards, blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🪩 From Ghala 🪩</h1>
+
+    <div class="message-container">
+        <div class="message-box">
+            <div class="typing-effect">You’re more than a friend, you’re a blessing</div>
+        </div>
+    </div>
+
+</body>
+</html>
